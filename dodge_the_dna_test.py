@@ -17,6 +17,8 @@ dna_test = pygame.transform.scale_by(pygame.image.load('assets/dnatest.png'), 0.
 testresult = pygame.image.load('assets/results.png')
 wash = pygame.transform.scale_by(pygame.image.load('assets/soap.png',), 0.3)
 pygame.display.set_icon(pavros)
+music = pygame.mixer.music.load('assets/backgroundmusic.mp3')
+pygame.mixer.music.play(-1)
 
 # pavros details
 x = 100
