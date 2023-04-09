@@ -127,7 +127,7 @@ while run:
         lost = False
         x = 100
         y = 500
-        pavros_vel = 10
+        pavros_vel = 12
         score = 0
         dna.movement()
     
