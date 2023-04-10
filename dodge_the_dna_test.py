@@ -125,11 +125,12 @@ while run:
         close = True
     if key[pygame.K_r] and lost == True:
         lost = False
+        dna.movement()
         x = 100
         y = 500
         pavros_vel = 12
         score = 0
-        dna.movement()
+        
     
 
     for event in pygame.event.get():
